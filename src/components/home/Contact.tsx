@@ -41,10 +41,11 @@ export default function Contact() {
     <div className="isolate px-6 py-24 sm:py-32 lg:px-8" id="contact">
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
-          Contact
+          Contacto
         </h2>
-        <p className="mt-2 text-lg/8 text-gray-500">
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
+        <p className="mt-6 text-lg/8 text-gray-500">
+          Si tienes alguna pregunta o quieres más información sobre nuestras
+          clases, no dudes en contactarnos. Estaremos encantados de ayudarte.
         </p>
       </div>
 
@@ -55,13 +56,13 @@ export default function Contact() {
         <div className="grid grid-cols-1 gap-x-8 gap-y-6">
           <div className="sm:col-span-2">
             <label htmlFor="name" className="block text-sm/6 font-semibold">
-              Name
+              Nombre
             </label>
             <div className="mt-2.5">
               <input
                 id="name"
-                {...register("name", { required: "Name is required" })}
-                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-indigo-600"
+                {...register("name", { required: "El nombre es obligatorio" })}
+                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-teal-600"
               />
               {errors.name && (
                 <p className="mt-1 text-sm text-red-500">
@@ -80,13 +81,13 @@ export default function Contact() {
                 id="email"
                 type="email"
                 {...register("email", {
-                  required: "Email is required",
+                  required: "El email es obligatorio",
                   pattern: {
                     value: /\S+@\S+\.\S+/,
-                    message: "Email is invalid",
+                    message: "El email no es válido",
                   },
                 })}
-                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-indigo-600"
+                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-teal-600"
               />
               {errors.email && (
                 <p className="mt-1 text-sm text-red-500">
@@ -98,14 +99,16 @@ export default function Contact() {
 
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm/6 font-semibold">
-              Message
+              Mensaje
             </label>
             <div className="mt-2.5">
               <textarea
                 id="message"
                 rows={4}
-                {...register("message", { required: "Message is required" })}
-                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-indigo-600"
+                {...register("message", {
+                  required: "El mensaje es obligatorio",
+                })}
+                className="block w-full rounded-md px-3.5 py-2 text-base outline-1 outline-gray-300 placeholder:text-gray-400 focus:outline-teal-600"
               />
               {errors.message && (
                 <p className="mt-1 text-sm text-red-500">
@@ -120,16 +123,14 @@ export default function Contact() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white hover:bg-indigo-500 focus-visible:outline-indigo-600"
+            className="block w-full rounded-md bg-teal-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white hover:bg-teal-600 focus-visible:outline-teal-600 cursor-pointer"
           >
-            {isSubmitting ? "Sending..." : "Send"}
+            {isSubmitting ? "Enviando..." : "Enviar"}
           </button>
         </div>
 
         {isSubmitSuccessful && !error && (
-          <p className="mt-4 text-green-600 text-center">
-            Message sent successfully!
-          </p>
+          <p className="mt-4 text-green-600 text-center">Mensaje enviado!</p>
         )}
         {error && <p className="mt-4 text-red-600 text-center">{error}</p>}
       </form>

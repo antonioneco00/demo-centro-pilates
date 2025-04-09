@@ -5,35 +5,28 @@ export default function DesktopNavigation() {
   return (
     <PopoverGroup className="hidden lg:flex lg:gap-x-12">
       <Link
-        href="/"
+        href="#about"
         className="text-md hover:text-gray-400 font-semibold transition-colors duration-500"
       >
-        Home
+        Sobre mí
       </Link>
       <Link
-        href="/about"
+        href="#pricing"
         className="text-md hover:text-gray-400 font-semibold transition-colors duration-500"
       >
-        About
+        Servicios
       </Link>
       <Link
-        href="/contact"
-        className="text-md hover:text-gray-400 font-semibold transition-colors duration-500"
-      >
-        Contact
-      </Link>
-      {/* Cambiar por enlace a si no se necesita otra página */}
-      {/* <a
         href="#contact"
         className="text-md hover:text-gray-400 font-semibold transition-colors duration-500"
-        >
-        Contact
-        </a> */}
+      >
+        Contacto
+      </Link>
       <Link
-        href="/products"
+        href="#footer"
         className="text-md hover:text-gray-400 font-semibold transition-colors duration-500"
       >
-        Products
+        Horarios
       </Link>
     </PopoverGroup>
   );

@@ -1,24 +1,24 @@
-import { CheckIcon } from "@heroicons/react/20/solid";
+import { CheckIcon, AcademicCapIcon, UsersIcon } from "@heroicons/react/20/solid";
 
 export const features = [
   {
-    name: "Feature 1.",
+    name: "Instructores certificados.",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CheckIcon,
+      "Instructores altamente cualificados y con experiencia en pilates.",
+    icon: AcademicCapIcon,
   },
   {
-    name: "Feature 2.",
+    name: "Grupos reducidos.",
     description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: CheckIcon,
+      "Clases en grupos reducidos para una atención personalizada.",
+    icon: UsersIcon,
   },
   {
-    name: "Feature 3.",
+    name: "Clases para todos los niveles.",
     description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
+      "Clases adaptadas a todos los niveles, desde principiantes hasta avanzados.",
     icon: CheckIcon,
-  },
+  }
 ];
 
 export const gridItems = [

@@ -29,14 +29,8 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
-      {/* <HeroSectionImageRight /> */}
       <FeatureSection />
-      <FactsSection />
-      <LogoClouds />
-      <GridSection />
-      <CarouselSection />
       <PricingSection />
-      <ProductsSection />
       <Testimonials />
       <Contact />
     </main>
