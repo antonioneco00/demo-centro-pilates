@@ -6,7 +6,7 @@ export default function HeroSection() {
       {/* Imagen de fondo opcional */}
       <BackgroundImage />
       <div className="text-center">
-        <h1 className="text-5xl text-white font-semibold font-mono tracking-tight text-balance sm:text-7xl">
+        <h1 className="text-5xl text-white font-semibold font-inter tracking-tight text-balance sm:text-7xl">
           Equilibra tu cuerpo y mente
         </h1>
         <p className="mt-8 text-lg font-medium font-sans text-pretty text-teal-400 sm:text-xl/8">

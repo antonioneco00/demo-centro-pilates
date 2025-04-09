@@ -30,7 +30,7 @@ export default function Testimonials() {
         Lo que dicen nuestros alumnos sobre nosotros.
       </p>
       <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 lg:max-w-6xl lg:grid-cols-3 gap-x-8">
-        {clients.map((client, id) => (
+        {clients.map((client) => (
           <div
             key={client.name}
             className="relative flex h-full flex-col shadow-2xl rounded-3xl p-8 ring-1 ring-gray-900/10 sm:p-10"

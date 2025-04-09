@@ -1,26 +1,24 @@
 import FeatureSection from "@/components/home/FeatureSection";
-import FactsSection from "@/components/home/FactsSection";
-import GridSection from "@/components/home/GridSection";
-import CarouselSection from "@/components/home/CarouselSection";
 import PricingSection from "@/components/home/PricingSection";
-import ProductsSection from "@/components/home/ProductsSection";
 import HeroSection from "@/components/home/HeroSection";
-import LogoClouds from "@/components/home/LogoClouds";
 import Testimonials from "@/components/home/Testimonials";
 import Contact from "@/components/home/Contact";
 import { Metadata } from "next";
-// import HeroSectionImageRight from "@/components/home/HeroSectionImageRight";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Home",
-    description:
-      "Welcome to our homepage. Here you will find information about our products and services.",
+    title: 'Pilates Vitalia',
+    description: 'Descubre nuestro centro de Pilates especializado en clases personalizadas, rehabilitación y bienestar corporal. Primera clase de prueba gratuita.',
     openGraph: {
-      title: "Home",
-      description:
-        "Welcome to our homepage. Here you will find information about our products and services.",
-      type: "website",
+      title: 'Pilates Vitalia - Tu Centro de Pilates de Confianza',
+      description: 'Mejora tu calidad de vida con nuestras clases personalizadas de Pilates. Especialistas en rehabilitación y ejercicios adaptados a todas las edades.',
+      type: 'website',
+      images: [{
+        url: '/hero-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'Pilates Vitalia - Sala Principal'
+      }],
     },
   };
 }
