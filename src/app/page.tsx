@@ -12,13 +12,6 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: 'Pilates Vitalia - Tu Centro de Pilates de Confianza',
       description: 'Mejora tu calidad de vida con nuestras clases personalizadas de Pilates. Especialistas en rehabilitación y ejercicios adaptados a todas las edades.',
-      type: 'website',
-      images: [{
-        url: '/hero-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Pilates Vitalia - Sala Principal'
-      }],
     },
   };
 }
