@@ -128,7 +128,7 @@ export default function FeatureSection() {
             alt="about image"
             width={400}
             height={400}
-            className="w-auto h-auto object-contain drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0_#729493]"
+            className="w-auto h-auto object-contain mx-auto drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0_#729493]"
           />
         </div>
       </div>

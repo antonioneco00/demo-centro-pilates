@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function BackgroundImage() {
   return (
     <div className="absolute inset-0 -z-10">
-      <div className="relative sm:h-[90vh] h-[70vh]"> {/* Cambiar 70vh, 85vh o lg:h-screen por el valor que convenga según el diseño */}
+      <div className="relative xl:h-[95vh] h-screen"> {/* Cambiar 70vh, 85vh o lg:h-screen por el valor que convenga según el diseño */}
         <Image
           src="/hero-image.png"
           alt="Background Image"
