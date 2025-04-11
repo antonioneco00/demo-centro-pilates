@@ -64,7 +64,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="#about"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-teal-600"
                   >
                     Sobre mí
                   </Link>
@@ -72,7 +72,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="#pricing"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-teal-600"
                   >
                     Servicios
                   </Link>
@@ -80,7 +80,7 @@ export default function Footer() {
                 <li>
                   <Link
                     href="#contact"
-                    className="mb-4 inline-block text-base duration-300 hover:text-gray-400"
+                    className="mb-4 inline-block text-base duration-300 hover:text-teal-600"
                   >
                     Contacto
                   </Link>
@@ -126,13 +126,13 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center space-x-2 mb-4">
                   <PhoneIcon className="w-6" />
-                  <span className="inline-block text-base duration-300 hover:text-gray-400">
+                  <span className="inline-block text-base duration-300 hover:text-teal-600">
                     <a href="tel:+34644 987 321">644 987 321</a>
                   </span>
                 </li>
                 <li className="flex items-center space-x-2 mb-4">
                   <EnvelopeIcon className="w-6" />
-                  <span className="inline-block text-base duration-300 hover:text-gray-400">
+                  <span className="inline-block text-base duration-300 hover:text-teal-600">
                     <a href="mailto:info@pilatesvitalia.es">
                       info@pilatesvitalia.es
                     </a>
