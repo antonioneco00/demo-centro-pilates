@@ -15,7 +15,66 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100" id="footer">
+    <footer
+      className="relative bg-linear-120 from-white to-teal-50"
+      id="footer"
+    >
+      <div className="absolute bottom-20">
+        <svg
+          width="101"
+          height="164"
+          viewBox="0 0 101 164"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle cx="19" cy="82" r="82" fill="url(#paint0_radial_58_29)" />
+          <defs>
+            <radialGradient
+              id="paint0_radial_58_29"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(50.5 61) rotate(147.281) scale(106.379)"
+            >
+              <stop stopColor="#F0FFFE" />
+              <stop offset="1" stopColor="#BFDDDA" />
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <div className="absolute right-0 top-10">
+        <svg
+          width="106"
+          height="168"
+          viewBox="0 0 106 168"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="84.31"
+            cy="84.31"
+            r="83"
+            transform="rotate(-99.6453 84.31 84.31)"
+            stroke="url(#paint0_linear_58_31)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_58_31"
+              x1="84.31"
+              y1="0.809967"
+              x2="84.31"
+              y2="167.81"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#009689" />
+              <stop offset="1" stop-color="white" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div className="-mx-4 flex flex-wrap justify-between">
           <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
