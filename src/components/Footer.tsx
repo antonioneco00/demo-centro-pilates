@@ -19,7 +19,7 @@ export default function Footer() {
       className="relative bg-linear-120 from-white to-teal-50"
       id="footer"
     >
-      <div className="absolute bottom-20">
+      <div className="absolute bottom-25">
         <svg
           width="101"
           height="164"
@@ -68,8 +68,8 @@ export default function Footer() {
               y2="167.81"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stop-color="#009689" />
-              <stop offset="1" stop-color="white" />
+              <stop stopColor="#B0E5E1" />
+              <stop offset="1" stopColor="white" />
             </linearGradient>
           </defs>
         </svg>
@@ -77,7 +77,7 @@ export default function Footer() {
 
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div className="-mx-4 flex flex-wrap justify-between">
-          <div className="w-full px-4 sm:w-1/2 lg:w-1/4">
+          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 z-10">
             <div className="mb-6 mx-auto text-center sm:mx-0 sm:text-left max-w-[360px]">
               <Link
                 href="/"
@@ -116,7 +116,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center">
+          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center z-10">
             <div className="mb-2">
               <h2 className="mb-4 text-xl font-bold">Enlaces</h2>
               <ul>
@@ -148,7 +148,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center">
+          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center z-10">
             <div className="mb-2">
               <h2 className="mb-4 text-xl font-bold">Horarios</h2>
               <ul>
@@ -171,7 +171,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center">
+          <div className="w-full px-4 sm:w-1/2 lg:w-1/4 text-center z-10">
             <div className="mb-2">
               <h2 className="mb-4 text-xl font-bold">Información</h2>
               <ul className="flex flex-col w-fit mx-auto text-left">
@@ -201,7 +201,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <p className="mt-8 text-base leading-6 text-center text-gray-400">
+        <p className="mt-8 text-base leading-6 text-center text-gray-400 z-10">
           © 2025 Pilates Vitalia - Todos los derechos reservados.
         </p>
       </div>
