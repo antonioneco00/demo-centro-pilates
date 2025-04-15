@@ -1,0 +1,13 @@
+en:
+  title: Vitalia Pilates
+  description: >
+    A responsive and modern landing page built with Next.js and TailwindCSS for a fictional Pilates studio. 
+    It includes sections like Hero, About, Pricing, Testimonials, and Contact—each thoughtfully designed to adapt to different screen sizes. 
+    The contact form is integrated with EmailJS and validated using react-hook-form. Some abstract SVG shapes, custom-designed in Figma, are also featured throughout the page. 
+
+es:
+  title: Pilates Vitalia
+  description: >
+        Una landing page moderna y responsiva desarrollada con Next.js y TailwindCSS para un estudio de pilates ficticio. 
+        Incluye secciones como Hero, Sobre Nosotros, Precios, Testimonios y Contacto, todas adaptadas a diferentes tamaños de pantalla. 
+        El formulario de contacto está integrado con EmailJS y validado usando react-hook-form. Además, se incluyen figuras abstractas SVG diseñadas por mí en Figma. 
