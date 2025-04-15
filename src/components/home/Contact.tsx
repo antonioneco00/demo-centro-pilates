@@ -38,7 +38,9 @@ export default function Contact() {
   };
 
   return (
-    <div className="isolate px-6 py-24 sm:py-32 lg:px-8" id="contact">
+    <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8" id="contact">
+      <div className="absolute top-0 left-0 size-full -z-5 bg-radial from-white from-70% sm:from-65% md:from-60% lg:from-50% xl:from-45% to-transparent"/>
+      <div className="absolute bg-[url(/polka-dot.svg)] size-full top-0 left-0 -z-10"/>
       <div className="mx-auto max-w-2xl text-center">
         <h2 className="text-4xl font-semibold tracking-tight text-balance sm:text-5xl">
           Contacto

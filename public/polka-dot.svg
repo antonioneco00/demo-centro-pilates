@@ -1,0 +1,138 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500"
+    xmlns="http://www.w3.org/2000/svg">
+    <mask id="radialMask" x="0" y="0" width="1000" height="500">
+        <rect x="0" y="0" width="1000" height="500" fill="url(#maskRadialGradient)" stroke="none" />
+    </mask>
+    <rect x="0" y="0" width="1000" height="500" stroke="none" stroke-width="0" fill="#ffffff" />
+    <g mask="url(#radialMask)">
+        <g transform="scale(1) rotate(0) skewX(0) skewY(0)">
+            <circle cx="44" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689d5" />
+            <circle cx="176" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#00968918" />
+            <circle cx="264" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689c2" />
+            <circle cx="308" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689d1" />
+            <circle cx="352" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#00968973" />
+            <circle cx="484" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689eb" />
+            <circle cx="528" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689b9" />
+            <circle cx="616" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689df" />
+            <circle cx="880" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#00968901" />
+            <circle cx="924" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#00968985" />
+            <circle cx="968" cy="22" r="4.2" stroke="none" stroke-width="0" fill="#009689cf" />
+            <circle cx="22" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#0096897a" />
+            <circle cx="66" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#009689b6" />
+            <circle cx="242" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#0096892d" />
+            <circle cx="506" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#009689f5" />
+            <circle cx="550" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#009689b4" />
+            <circle cx="594" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#009689ea" />
+            <circle cx="902" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#009689c6" />
+            <circle cx="990" cy="66" r="4.2" stroke="none" stroke-width="0" fill="#00968986" />
+            <circle cx="88" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#0096891a" />
+            <circle cx="176" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968949" />
+            <circle cx="220" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968977" />
+            <circle cx="264" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968966" />
+            <circle cx="308" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#009689f5" />
+            <circle cx="352" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968991" />
+            <circle cx="396" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968998" />
+            <circle cx="616" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#0096897e" />
+            <circle cx="660" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#009689c9" />
+            <circle cx="704" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968943" />
+            <circle cx="792" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#0096892d" />
+            <circle cx="836" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968969" />
+            <circle cx="880" cy="110" r="4.2" stroke="none" stroke-width="0" fill="#00968925" />
+            <circle cx="154" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689fb" />
+            <circle cx="198" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689d9" />
+            <circle cx="242" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#0096899f" />
+            <circle cx="286" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#0096897b" />
+            <circle cx="330" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689e7" />
+            <circle cx="374" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#00968937" />
+            <circle cx="418" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689ef" />
+            <circle cx="462" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#00968996" />
+            <circle cx="594" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689f0" />
+            <circle cx="638" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#00968991" />
+            <circle cx="726" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#00968963" />
+            <circle cx="814" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#00968910" />
+            <circle cx="902" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689c9" />
+            <circle cx="946" cy="154" r="4.2" stroke="none" stroke-width="0" fill="#009689c4" />
+            <circle cx="44" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#009689c8" />
+            <circle cx="176" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968935" />
+            <circle cx="220" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968917" />
+            <circle cx="264" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#009689f4" />
+            <circle cx="440" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968932" />
+            <circle cx="484" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968966" />
+            <circle cx="660" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968946" />
+            <circle cx="704" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968997" />
+            <circle cx="836" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#00968982" />
+            <circle cx="968" cy="198" r="4.2" stroke="none" stroke-width="0" fill="#009689f2" />
+            <circle cx="22" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689e0" />
+            <circle cx="110" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#00968970" />
+            <circle cx="154" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689f8" />
+            <circle cx="242" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#00968938" />
+            <circle cx="374" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689b0" />
+            <circle cx="506" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689ec" />
+            <circle cx="814" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689ab" />
+            <circle cx="902" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#009689d7" />
+            <circle cx="990" cy="242" r="4.2" stroke="none" stroke-width="0" fill="#0096891b" />
+            <circle cx="132" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#00968916" />
+            <circle cx="220" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#009689cd" />
+            <circle cx="264" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#0096899c" />
+            <circle cx="308" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#0096899f" />
+            <circle cx="352" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#00968955" />
+            <circle cx="484" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#0096898d" />
+            <circle cx="836" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#00968965" />
+            <circle cx="880" cy="286" r="4.2" stroke="none" stroke-width="0" fill="#00968975" />
+            <circle cx="22" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#00968946" />
+            <circle cx="66" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096894f" />
+            <circle cx="154" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096891c" />
+            <circle cx="198" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096895a" />
+            <circle cx="286" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689f8" />
+            <circle cx="418" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689a3" />
+            <circle cx="462" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689d2" />
+            <circle cx="506" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096898a" />
+            <circle cx="550" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689e9" />
+            <circle cx="638" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096899a" />
+            <circle cx="682" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#00968926" />
+            <circle cx="726" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096892e" />
+            <circle cx="770" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#0096899b" />
+            <circle cx="858" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689c9" />
+            <circle cx="946" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#00968907" />
+            <circle cx="990" cy="330" r="4.2" stroke="none" stroke-width="0" fill="#009689b8" />
+            <circle cx="44" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#0096897b" />
+            <circle cx="88" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968971" />
+            <circle cx="176" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968986" />
+            <circle cx="352" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968965" />
+            <circle cx="396" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689e1" />
+            <circle cx="440" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968910" />
+            <circle cx="528" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689e5" />
+            <circle cx="572" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689d9" />
+            <circle cx="616" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#0096895c" />
+            <circle cx="704" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968969" />
+            <circle cx="748" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#00968902" />
+            <circle cx="836" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689da" />
+            <circle cx="880" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689eb" />
+            <circle cx="924" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689c5" />
+            <circle cx="968" cy="374" r="4.2" stroke="none" stroke-width="0" fill="#009689b7" />
+            <circle cx="198" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968927" />
+            <circle cx="242" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#009689be" />
+            <circle cx="330" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968979" />
+            <circle cx="374" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#009689f1" />
+            <circle cx="462" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#009689ea" />
+            <circle cx="506" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968913" />
+            <circle cx="638" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#009689b4" />
+            <circle cx="682" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968997" />
+            <circle cx="902" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968937" />
+            <circle cx="946" cy="418" r="4.2" stroke="none" stroke-width="0" fill="#00968922" />
+            <circle cx="88" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#00968920" />
+            <circle cx="352" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#00968976" />
+            <circle cx="396" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#00968975" />
+            <circle cx="528" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#00968971" />
+            <circle cx="660" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#009689ad" />
+            <circle cx="704" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#00968981" />
+            <circle cx="748" cy="462" r="4.2" stroke="none" stroke-width="0" fill="#009689e9" />
+        </g>
+    </g>
+    <defs>
+        <radialGradient id="maskRadialGradient">
+            <stop offset="0" stop-color="white" />
+            <stop offset="1" stop-color="white" />
+        </radialGradient>
+    </defs>
+</svg>

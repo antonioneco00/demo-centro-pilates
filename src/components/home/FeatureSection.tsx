@@ -7,6 +7,7 @@ export default function FeatureSection() {
       className="relative overflow-hidden bg-background py-24 sm:py-32"
       id="about"
     >
+      {/* Wave */}
       <div className="absolute top-0">
         <svg
           id="visual"
@@ -23,6 +24,7 @@ export default function FeatureSection() {
           ></path>
         </svg>
       </div>
+      {/* Lines 4 */}
       <div className="absolute bottom-0">
         <svg
           width="307"
@@ -30,7 +32,7 @@ export default function FeatureSection() {
           viewBox="0 0 307 283"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="size-1/3 md:size-1/2 xl:size-2/3"
+          className="size-1/3 md:size-1/2 lg:size-2/3 xl:size-full"
         >
           <path
             d="M56 0.99999C146.571 58.6396 131.682 134.873 199.921 162.143C304.288 203.852 296.074 246.846 306 283"
@@ -47,6 +49,19 @@ export default function FeatureSection() {
           <path
             d="M0 0.99999C90.5707 58.6396 75.6824 134.873 143.921 162.143C248.288 203.852 240.074 246.846 250 283"
             stroke="url(#paint3_linear_16_85)"
+          />
+          <circle
+            cx="233.5"
+            cy="120.5"
+            r="29.5"
+            fill="url(#paint4_radial_16_85)"
+          />
+          <circle
+            cx="108.748"
+            cy="221.748"
+            r="32"
+            transform="rotate(129.474 108.748 221.748)"
+            stroke="url(#paint5_linear_16_85)"
           />
           <defs>
             <linearGradient
@@ -93,12 +108,35 @@ export default function FeatureSection() {
               <stop stopColor="#009689" />
               <stop offset="1" stopColor="white" />
             </linearGradient>
+            <radialGradient
+              id="paint4_radial_16_85"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(247 129) rotate(-140.194) scale(39.0512)"
+            >
+              <stop stopColor="#F0FFFE" />
+              <stop offset="1" stopColor="#BFDDDA" />
+            </radialGradient>
+            <linearGradient
+              id="paint5_linear_16_85"
+              x1="108.748"
+              y1="189.248"
+              x2="108.748"
+              y2="254.248"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#009689" />
+              <stop offset="1" stopColor="white" />
+            </linearGradient>
           </defs>
         </svg>
       </div>
+
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8">
+          <div className="lg:pr-8 z-10">
             <div className="lg:max-w-lg">
               <h2 className="mt-2 text-4xl font-semibold tracking-tight text-pretty sm:text-5xl">
                 Sobre nosotros
@@ -128,7 +166,7 @@ export default function FeatureSection() {
             alt="about image"
             width={400}
             height={400}
-            className="w-auto h-auto object-contain mx-auto drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0_#729493]"
+            className="w-auto h-auto object-contain mx-auto drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0_#729493] z-10"
           />
         </div>
       </div>

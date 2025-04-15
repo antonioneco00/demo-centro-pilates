@@ -21,6 +21,125 @@ export default function Testimonials() {
 
   return (
     <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+      <div className="absolute top-0 left-0">
+        <svg
+          width="437"
+          height="956"
+          viewBox="0 0 437 956"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="size-1/3 sm:size-1/2 lg:size-4/5 xl:size-full"
+        >
+          <circle
+            cx="26.0094"
+            cy="26.0094"
+            r="25.5094"
+            transform="matrix(1 0 0 -1 69.3849 191.767)"
+            stroke="url(#paint0_linear_57_22)"
+          />
+          <circle
+            cx="17"
+            cy="17"
+            r="16.5"
+            transform="matrix(1 0 0 -1 319 226)"
+            stroke="url(#paint1_linear_57_22)"
+          />
+          <circle
+            cx="34"
+            cy="34"
+            r="34"
+            transform="matrix(1 0 0 -1 151 260)"
+            fill="url(#paint2_radial_57_22)"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M-449.096 719.188C-438.206 646.351 -415.496 572.094 -380.206 499.952C-232.306 197.608 80.5478 46.8997 318.573 163.336C346.9 177.193 372.89 194.208 396.449 213.944C356.631 145.888 299.257 90.0568 226.418 54.4252C3.52208 -54.6097 -279.798 66.7976 -406.396 325.596C-470.47 456.58 -482.118 597.654 -449.096 719.188Z"
+            fill="url(#paint3_linear_57_22)"
+            fillOpacity="0.46"
+          />
+          <path
+            d="M406.78 212.051C406.257 211.184 405.731 210.32 405.203 209.458C363.535 141.488 304.449 85.433 230.102 49.0646C-0.289056 -63.6372 -289.977 55.3917 -416.933 314.923C-480.765 445.412 -491.306 586.574 -456.725 709.015C-456.495 709.828 -456.264 710.64 -456.03 711.451"
+            stroke="url(#paint4_linear_57_22)"
+          />
+          <path
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M303.181 238.5C282.811 218.812 260.234 200.86 235.526 185.005C27.9003 51.7817 -251.662 117.161 -388.895 331.034C-421.64 382.066 -443.323 436.942 -454.538 492.731C-481.029 390.816 -467.648 281.133 -408.195 188.477C-290.728 5.40732 -37.887 -41.8659 156.541 82.8894C220.078 123.658 269.514 177.753 303.181 238.5Z"
+            fill="url(#paint5_linear_57_22)"
+            fillOpacity="0.46"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_57_22"
+              x1="31.6063"
+              y1="52.0188"
+              x2="22.7171"
+              y2="6.25542"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#84C7C0" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_57_22"
+              x1="17"
+              y1="34"
+              x2="17"
+              y2="-2.37953e-07"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#8FCCC5" />
+              <stop offset="1" stopColor="white" />
+            </linearGradient>
+            <radialGradient
+              id="paint2_radial_57_22"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(34 10.5) rotate(78.6901) scale(58.6387)"
+            >
+              <stop stopColor="#F0FFFE" />
+              <stop offset="1" stopColor="#BFDDDA" />
+            </radialGradient>
+            <linearGradient
+              id="paint3_linear_57_22"
+              x1="1.99999"
+              y1="60.5"
+              x2="389"
+              y2="206"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#50B8AF" />
+              <stop offset="1" stopColor="#C4F2EE" />
+            </linearGradient>
+            <linearGradient
+              id="paint4_linear_57_22"
+              x1="2.99995"
+              y1="50.5"
+              x2="395"
+              y2="213"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#77BEB8" />
+              <stop offset="1" stopColor="#C6EFEC" />
+            </linearGradient>
+            <linearGradient
+              id="paint5_linear_57_22"
+              x1="-6.08374e-05"
+              y1="70"
+              x2="304"
+              y2="236"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#61BCB5" />
+              <stop offset="1" stopColor="#ADE3DE" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
       <div className="absolute top-0 right-0">
         <svg
           width="289"
@@ -54,14 +173,14 @@ export default function Testimonials() {
           <circle
             cx="47.5"
             cy="47.5"
-            r="47"
+            r="30"
             transform="matrix(1 0 0 -1 190 276.501)"
             stroke="url(#paint1_linear_30_517)"
           />
           <circle
             cx="47.5"
             cy="47.5"
-            r="47"
+            r="30"
             transform="matrix(0 1 1 0 0 4.50098)"
             stroke="url(#paint2_linear_30_517)"
           />
