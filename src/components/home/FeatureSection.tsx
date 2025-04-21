@@ -18,12 +18,14 @@ export default function FeatureSection() {
         >
           <path
             d="M0 25L25 24.5C50 24 100 23 150 23.8C200 24.7 250 27.3 300 26.8C350 26.3 400 22.7 450 23.2C500 23.7 550 28.3 600 31.8C650 35.3 700 37.7 750 37.7C800 37.7 850 35.3 875 34.2L900 33L900 0L875 0C850 0 800 0 750 0C700 0 650 0 600 0C550 0 500 0 450 0C400 0 350 0 300 0C250 0 200 0 150 0C100 0 50 0 25 0L0 0Z"
-            fill="#009689"
+            fill="var(--color-teal-500)"
+            fillOpacity="0.8"
             strokeLinecap="round"
             strokeLinejoin="miter"
           ></path>
         </svg>
       </div>
+
       {/* Lines 4 */}
       <div className="absolute bottom-0">
         <svg
@@ -55,6 +57,7 @@ export default function FeatureSection() {
             cy="120.5"
             r="29.5"
             fill="url(#paint4_radial_16_85)"
+            fillOpacity="0.3"
           />
           <circle
             cx="108.748"
@@ -72,8 +75,8 @@ export default function FeatureSection() {
               y2="0.152883"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint1_linear_16_85"
@@ -83,8 +86,8 @@ export default function FeatureSection() {
               y2="0.152883"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_16_85"
@@ -94,8 +97,8 @@ export default function FeatureSection() {
               y2="1.1494"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint3_linear_16_85"
@@ -105,8 +108,8 @@ export default function FeatureSection() {
               y2="0.152883"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <radialGradient
               id="paint4_radial_16_85"
@@ -116,8 +119,8 @@ export default function FeatureSection() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(247 129) rotate(-140.194) scale(39.0512)"
             >
-              <stop stopColor="#F0FFFE" />
-              <stop offset="1" stopColor="#BFDDDA" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity={0.05} />
+              <stop offset="1" stopColor="var(--color-teal-500)" />
             </radialGradient>
             <linearGradient
               id="paint5_linear_16_85"
@@ -127,8 +130,8 @@ export default function FeatureSection() {
               y2="254.248"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -166,7 +169,7 @@ export default function FeatureSection() {
             alt="about image"
             width={400}
             height={400}
-            className="w-auto h-auto object-contain mx-auto drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0_#729493] z-10"
+            className="w-auto h-auto object-contain mx-auto drop-shadow-three rounded-tl-4xl rounded-br-4xl shadow-[10px_10px_0] shadow-teal-600/60 z-10"
           />
         </div>
       </div>

@@ -21,6 +21,7 @@ export default function Testimonials() {
 
   return (
     <div className="relative isolate px-6 py-24 sm:py-32 lg:px-8">
+      {/* Corner left */}
       <div className="absolute top-0 left-0">
         <svg
           width="437"
@@ -50,24 +51,26 @@ export default function Testimonials() {
             r="34"
             transform="matrix(1 0 0 -1 151 260)"
             fill="url(#paint2_radial_57_22)"
+            fillOpacity="0.5"
           />
           <path
             fillRule="evenodd"
             clipRule="evenodd"
-            d="M-449.096 719.188C-438.206 646.351 -415.496 572.094 -380.206 499.952C-232.306 197.608 80.5478 46.8997 318.573 163.336C346.9 177.193 372.89 194.208 396.449 213.944C356.631 145.888 299.257 90.0568 226.418 54.4252C3.52208 -54.6097 -279.798 66.7976 -406.396 325.596C-470.47 456.58 -482.118 597.654 -449.096 719.188Z"
+            d="M-449.096 719.188C-438.206 646.351 -415.496 572.094 -380.206 499.952C-232.306 197.608 80.5478 46.8997 318.573 163.336C346.9 177.193 372.89 194.208 396.449 213.944C356.631 145.888 299.257 90.0567 226.418 54.4252C3.52207 -54.6097 -279.798 66.7976 -406.396 325.596C-470.47 456.58 -482.118 597.654 -449.096 719.188Z"
             fill="url(#paint3_linear_57_22)"
-            fillOpacity="0.46"
+            fillOpacity="0.5"
           />
           <path
             d="M406.78 212.051C406.257 211.184 405.731 210.32 405.203 209.458C363.535 141.488 304.449 85.433 230.102 49.0646C-0.289056 -63.6372 -289.977 55.3917 -416.933 314.923C-480.765 445.412 -491.306 586.574 -456.725 709.015C-456.495 709.828 -456.264 710.64 -456.03 711.451"
             stroke="url(#paint4_linear_57_22)"
+            strokeOpacity="0.5"
           />
           <path
             fillRule="evenodd"
             clipRule="evenodd"
             d="M303.181 238.5C282.811 218.812 260.234 200.86 235.526 185.005C27.9003 51.7817 -251.662 117.161 -388.895 331.034C-421.64 382.066 -443.323 436.942 -454.538 492.731C-481.029 390.816 -467.648 281.133 -408.195 188.477C-290.728 5.40732 -37.887 -41.8659 156.541 82.8894C220.078 123.658 269.514 177.753 303.181 238.5Z"
             fill="url(#paint5_linear_57_22)"
-            fillOpacity="0.46"
+            fillOpacity="0.5"
           />
           <defs>
             <linearGradient
@@ -78,7 +81,7 @@ export default function Testimonials() {
               y2="6.25542"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#84C7C0" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity="0.5" />
               <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <linearGradient
@@ -89,8 +92,8 @@ export default function Testimonials() {
               y2="-2.37953e-07"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#8FCCC5" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity="0.5" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <radialGradient
               id="paint2_radial_57_22"
@@ -100,8 +103,8 @@ export default function Testimonials() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(34 10.5) rotate(78.6901) scale(58.6387)"
             >
-              <stop stopColor="#F0FFFE" />
-              <stop offset="1" stopColor="#BFDDDA" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity="0.05" />
+              <stop offset="1" stopColor="var(--color-teal-500)" />
             </radialGradient>
             <linearGradient
               id="paint3_linear_57_22"
@@ -111,8 +114,8 @@ export default function Testimonials() {
               y2="206"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#50B8AF" />
-              <stop offset="1" stopColor="#C4F2EE" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0.1" />
             </linearGradient>
             <linearGradient
               id="paint4_linear_57_22"
@@ -122,8 +125,8 @@ export default function Testimonials() {
               y2="213"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#77BEB8" />
-              <stop offset="1" stopColor="#C6EFEC" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0.1" />
             </linearGradient>
             <linearGradient
               id="paint5_linear_57_22"
@@ -133,13 +136,14 @@ export default function Testimonials() {
               y2="236"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#61BCB5" />
-              <stop offset="1" stopColor="#ADE3DE" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0.05" />
             </linearGradient>
           </defs>
         </svg>
       </div>
 
+      {/* Corner right */}
       <div className="absolute top-0 right-0">
         <svg
           width="289"
@@ -153,15 +157,15 @@ export default function Testimonials() {
             fillRule="evenodd"
             clipRule="evenodd"
             d="M320.548 -145.219C327.445 -98.1356 319.15 -48.4808 293.567 -4.03931C246.921 76.9922 156.422 117.025 69.2608 103.351C73.0411 105.927 76.9474 108.379 80.9774 110.699C167.133 160.295 277.182 130.658 326.778 44.5022C362.048 -16.7662 357.248 -90.1177 320.548 -145.219Z"
-            fill="#B0E5E1"
-            fillOpacity="0.51"
+            fill="var(--color-teal-500)"
+            fillOpacity="0.2"
           />
           <path
             fillRule="evenodd"
             clipRule="evenodd"
             d="M168.711 207.72C161.813 160.637 170.108 110.982 195.691 66.5403C242.337 -14.4912 332.836 -54.5243 419.997 -40.8503C416.217 -43.4261 412.311 -45.8782 408.281 -48.1981C322.125 -97.7943 212.076 -68.157 162.48 17.9988C127.21 79.2672 132.01 152.619 168.711 207.72Z"
-            fill="#50B8AF"
-            fillOpacity="0.46"
+            fill="var(--color-teal-500)"
+            fillOpacity="0.5"
           />
           <circle
             cx="47.5"
@@ -173,14 +177,14 @@ export default function Testimonials() {
           <circle
             cx="47.5"
             cy="47.5"
-            r="30"
+            r="47"
             transform="matrix(1 0 0 -1 190 276.501)"
             stroke="url(#paint1_linear_30_517)"
           />
           <circle
             cx="47.5"
             cy="47.5"
-            r="30"
+            r="47"
             transform="matrix(0 1 1 0 0 4.50098)"
             stroke="url(#paint2_linear_30_517)"
           />
@@ -193,8 +197,8 @@ export default function Testimonials() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(35 33.5) rotate(78.511) scale(62.7575)"
             >
-              <stop stopColor="#F0FFFE" />
-              <stop offset="1" stopColor="#BFDDDA" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity="0.05" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0.5" />
             </radialGradient>
             <linearGradient
               id="paint1_linear_30_517"
@@ -204,8 +208,8 @@ export default function Testimonials() {
               y2="95"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
             <linearGradient
               id="paint2_linear_30_517"
@@ -215,8 +219,8 @@ export default function Testimonials() {
               y2="95"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#009689" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -235,6 +239,7 @@ export default function Testimonials() {
             key={client.name}
             className="relative flex h-full flex-col shadow-2xl rounded-3xl p-8 ring-1 ring-teal-600/60 sm:p-10 overflow-hidden"
           >
+            {/* Left circle */}
             <div className="absolute bottom-0 left-0">
               <svg
                 width="135"
@@ -258,12 +263,14 @@ export default function Testimonials() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(56.487 23.4805) rotate(95.4539) scale(146.684 126.484)"
                   >
-                    <stop stopColor="#B4EFEA" />
-                    <stop offset="1" stopColor="#67A7A1" />
+                    <stop stopColor="var(--color-teal-500)" stopOpacity={0.2} />
+                    <stop offset="1" stopColor="var(--color-teal-500)" />
                   </radialGradient>
                 </defs>
               </svg>
             </div>
+
+            {/* Right circle */}
             <div className="absolute bottom-0 right-0">
               <svg
                 width="160"
@@ -287,8 +294,8 @@ export default function Testimonials() {
                     gradientUnits="userSpaceOnUse"
                     gradientTransform="translate(117.347 30.5102) rotate(90.674) scale(199.504)"
                   >
-                    <stop stopColor="#F2FFFE" />
-                    <stop offset="1" stopColor="#C2DDDA" />
+                    <stop stopColor="var(--color-teal-500)" stopOpacity={0.05} />
+                    <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity={0.2} />
                   </radialGradient>
                 </defs>
               </svg>

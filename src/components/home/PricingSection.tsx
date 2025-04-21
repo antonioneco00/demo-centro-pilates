@@ -3,7 +3,7 @@ import { tiers } from "@/lib/products";
 export default function PricingSection() {
   return (
     <div
-      className="relative bg-linear-120 from-white to-teal-50 isolate px-6 py-24 sm:py-32 lg:px-8"
+      className="relative bg-linear-120 from-background to-teal-50 isolate px-6 py-24 sm:py-32 lg:px-8"
       id="pricing"
     >
       <div className="mx-auto max-w-4xl text-center">
@@ -31,11 +31,11 @@ export default function PricingSection() {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <circle cx="14" cy="14" r="2" fill="#009689" />
-                <circle cx="14" cy="2" r="2" fill="#009689" />
-                <circle cx="26" cy="26" r="2" fill="#009689" />
-                <circle cx="2" cy="2" r="2" fill="#009689" />
-                <circle cx="26" cy="14" r="2" fill="#009689" />
+                <circle cx="14" cy="14" r="2" fill="var(--color-teal-500)" />
+                <circle cx="14" cy="2" r="2" fill="var(--color-teal-500)" />
+                <circle cx="26" cy="26" r="2" fill="var(--color-teal-500)" />
+                <circle cx="2" cy="2" r="2" fill="var(--color-teal-500)" />
+                <circle cx="26" cy="14" r="2" fill="var(--color-teal-500)" />
               </svg>
             </div>
             <h3 className="text-teal-600 text-base/7 font-semibold">

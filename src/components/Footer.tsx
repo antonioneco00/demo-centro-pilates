@@ -16,9 +16,10 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer
-      className="relative bg-linear-120 from-white to-teal-50"
+      className="relative bg-linear-120 from-background to-teal-50"
       id="footer"
     >
+      {/* Left ball */}
       <div className="absolute bottom-25">
         <svg
           width="101"
@@ -37,13 +38,14 @@ export default function Footer() {
               gradientUnits="userSpaceOnUse"
               gradientTransform="translate(50.5 61) rotate(147.281) scale(106.379)"
             >
-              <stop stopColor="#F0FFFE" />
-              <stop offset="1" stopColor="#BFDDDA" />
+              <stop stopColor="var(--color-teal-500)" stopOpacity="0.05" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0.2" />
             </radialGradient>
           </defs>
         </svg>
       </div>
 
+      {/* Right ball */}
       <div className="absolute right-0 top-10">
         <svg
           width="106"
@@ -68,8 +70,8 @@ export default function Footer() {
               y2="167.81"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#B0E5E1" />
-              <stop offset="1" stopColor="white" />
+              <stop stopColor="var(--color-teal-500)" />
+              <stop offset="1" stopColor="white" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
