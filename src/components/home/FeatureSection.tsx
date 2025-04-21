@@ -17,12 +17,22 @@ export default function FeatureSection() {
           className="w-screen"
         >
           <path
-            d="M0 25L25 24.5C50 24 100 23 150 23.8C200 24.7 250 27.3 300 26.8C350 26.3 400 22.7 450 23.2C500 23.7 550 28.3 600 31.8C650 35.3 700 37.7 750 37.7C800 37.7 850 35.3 875 34.2L900 33L900 0L875 0C850 0 800 0 750 0C700 0 650 0 600 0C550 0 500 0 450 0C400 0 350 0 300 0C250 0 200 0 150 0C100 0 50 0 25 0L0 0Z"
-            fill="var(--color-teal-500)"
-            fillOpacity="0.8"
-            strokeLinecap="round"
-            strokeLinejoin="miter"
-          ></path>
+            d="M900 26L862.5 20.8C825 15.7 750 5.3 675 3.2C600 1 525 7 450 14.7C375 22.3 300 31.7 225 34C150 36.3 75 31.7 37.5 29.3L0 27V0H37.5C75 0 150 0 225 0C300 0 375 0 450 0C525 0 600 0 675 0C750 0 825 0 862.5 0H900V26Z"
+            fill="url(#paint0_linear_102_20)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_102_20"
+              x1="0"
+              y1="24.8131"
+              x2="900"
+              y2="24.8131"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#00BBA7" stopOpacity="0.6" />
+              <stop offset="1" stopColor="#00BBA7" stopOpacity="0.2" />
+            </linearGradient>
+          </defs>
         </svg>
       </div>
 
