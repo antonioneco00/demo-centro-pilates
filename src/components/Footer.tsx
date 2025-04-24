@@ -71,7 +71,7 @@ export default function Footer() {
               gradientUnits="userSpaceOnUse"
             >
               <stop stopColor="var(--color-teal-500)" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
+              <stop offset="1" stopColor="var(--color-teal-500)" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
