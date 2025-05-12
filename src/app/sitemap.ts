@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://pilatesvitalia.com";
+  const baseUrl = "https://pilates-vitalia.vercel.app";
 
   return [
     {
